@@ -11,7 +11,9 @@ export class AppComponent {
     {nombre: 'Floreria la gardenia', active: true},
     {nombre: 'Donas la pasadita', active: false},
     {nombre: 'Veterinaria huellitas felices', active: true}
-  ]
+  ];
+  lat:number = 1.2060377;
+  lng:number = -77.2629534;
 
   constructor (){
     
